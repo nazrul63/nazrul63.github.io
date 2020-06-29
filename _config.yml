@@ -18,7 +18,7 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 locale                   : "en-US"
 title                    : "Journey to the Light"
 title_separator          : "-"
-subtitle                 : # site tagline that appears below site title in masthead
+subtitle                 : "Nazrul Islam" # site tagline that appears below site title in masthead
 name                     : "Nazrul Islam"
 description              : "A digital platform to express my knowledge and experiences."
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
@@ -95,7 +95,7 @@ analytics:
 author:
   name             : "Nazrul Islam"
   avatar           : "/images/bio-photo.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am a **simple** person."
+  bio              : "An ephemeral being"
   location         : "Dhaka, Bangladesh"
   email            : "asmnazrul1363@gmail.com"
   links:
