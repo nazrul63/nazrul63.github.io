@@ -4,7 +4,7 @@ permalink: /islam/
 title: "Islamic posts by Tags"
 author_profile: true
 header:
-    image: "/images/islam.jpg"
+  image: "/images/islam.jpg"
 --- 
 
 {% include base_path %}
