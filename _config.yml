@@ -97,7 +97,7 @@ author:
   avatar           : "/images/bio-photo.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "An ephemeral being"
   location         : "Dhaka, Bangladesh"
-  email            : "asmnazrul1363@gmail.com"
+  email            : 
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
@@ -113,7 +113,7 @@ author:
       # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-       #url: "https://github.com/nazrul63"
+      url: "https://github.com/nazrul63"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
@@ -129,7 +129,7 @@ footer:
       # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/nazrul63"
+      url: "https://github.com/nazrul63"
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:
