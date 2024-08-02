@@ -438,3 +438,28 @@ a:focus, a:hover, a:active {
     visibility: hidden;
   }
 }
+
+@media (max-width: 768px) {
+  .pub-desc {
+    font-size: medium;
+    line-height: normal;
+    text-align: justify;
+    padding-top: .8rem;
+}
+}
+@media (min-width:768px){
+  .pub-desc {
+    font-size: medium;
+    line-height: normal;
+    text-align: justify;
+}
+}
+
+/* For width 400px and larger: */
+/* @media only screen and (min-width: 768px) {
+  .pub-desc {
+    font-size: medium;
+    line-height: normal;
+    text-align: justify;
+}
+} */
