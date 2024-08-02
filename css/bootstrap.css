@@ -8999,7 +8999,7 @@
   .carousel-inner > .item > a > img {
     display: block;
     max-width: 100%;
-    height: auto;
+    height: 9rem;
   }
   .img-rounded {
     border-radius: 6px;
