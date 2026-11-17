@@ -14,17 +14,14 @@
 
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-  <meta name="description" content="" />
-  <meta name="author" content="" />
+  <meta name="description" content="A S M Nazrul Islam - Ph.D. student in Information Science at NAIST, Japan. Machine learning for antibiotic mechanism-of-action prediction, data science and data engineering." />
+  <meta name="author" content="A S M Nazrul Islam" />
 
   <title>A S M Nazrul Islam's Homepage</title>
 
   <!-- Bootstrap core CSS -->
   <link href="css/bootstrap.css" rel="stylesheet" />
 
-  <!-- Extra devicon -->
-  <link rel="stylesheet"
-    href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css" />
 
   <!-- Custom fonts -->
   <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" />
@@ -39,7 +36,15 @@
   <link href="css/freelancer.css" rel="stylesheet" />
   <link href="css/devicons.min.css" rel="stylesheet" />
   <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
-          
+
+  <!-- Publication list styles -->
+  <style>
+    .pub-entry { padding-bottom: 1.2rem; }
+    .pub-entry .pub-title { font-size: 1.05rem; font-weight: bold; margin-bottom: .2rem; }
+    .pub-entry .pub-authors { margin-bottom: .1rem; }
+    .pub-entry .pub-venue { font-style: italic; margin-bottom: .3rem; }
+    .pub-entry .pub-summary { font-size: .95rem; text-align: justify; margin-bottom: 0; }
+  </style>
 
   <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"
     integrity="sha384-kW+oWsYx3YpxvjtZjFXqazFpA7UP/MbiY4jvs+RWZo2+N94PFZ36T6TFkc9O3qoB"
@@ -60,6 +65,9 @@
         <ul class="navbar-nav ml-auto">
           <li class="nav-item mx-0 mx-lg-1">
             <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">About</a>
+          </li>
+          <li class="nav-item mx-0 mx-lg-1">
+            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#publications">Publications</a>
           </li>
           <li class="nav-item mx-0 mx-lg-1">
             <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#project">Project</a>
@@ -128,16 +136,21 @@
               <p>
                 My research interests lie in Data Science, Machine Learning and Deep Learning.
               </p> -->
-              <p>With 5 years of experience in the data domain, I am passionate about turning complex data into actionable insights. 
-                I specialize in developing web applications, interactive dashboards and reporting tools to transform raw data into meaningful outcomes.
+              <p>I am a Ph.D. student in Information Science at the Nara Institute of Science and Technology (NAIST), Japan,
+                in the Computational Systems Biology Laboratory, supported by the JST GRANITE Program scholarship.
+                My doctoral research uses machine learning to predict the mechanisms of action (MOA) of antibiotic compounds,
+                with the wider aim of supporting work against drug-resistant bacteria.
               </p>
-              <p>Proficient in SQL, Python (Pandas, NumPy, Scikit-learn) and data visualization libraries (Matplotlib, Seaborn, AmCharts, ECharts), 
-                I also bring strong web development skills using Laravel, JavaScript and Bootstrap 5.
+              <p>Before my Ph.D., I spent about five years in the data domain, most of it as Database Administrator and Team Lead at
+                Biman Bangladesh Airlines, where I built dashboards, reporting tools and ETL pipelines on airline operations data and
+                led digital transformation projects.
               </p>
-              <p>As a Software Engineer, I design and deploy solutions that address complex business needs. My expertise includes ETL processes and 
-                data visualization to support data-driven decision-making.
+              <p>At NAIST my work spans cheminformatics, medical imaging, drug response prediction and LLM-based knowledge extraction,
+                with a consistent focus on leakage-aware evaluation and on whether models hold up on data they have not seen.
               </p>
-              <p>My research interests focus on Data Science, Machine Learning and Deep Learning.</p>
+              <p>I work mainly in Python (Pandas, NumPy, Scikit-learn, TensorFlow) and SQL, and also bring web development
+                experience with Laravel, JavaScript and Bootstrap.
+              </p>
             </div>
           </div>
         </div>
@@ -145,15 +158,87 @@
     </div>
   </section>
 
-  <section id="project" class="ga-label section-even" style="padding-top: 2rem; background-color: #eeeeee">
+  <!-- Publications -->
+  <section id="publications" class="ga-label section-even" style="padding-top: 2rem; background-color: #eeeeee">
     <div class="header">
-      <h1>Selected Projects</h1>
+      <h1>Publications</h1>
+    </div>
+    <div class="container">
+      <div class="row" style="justify-content: center;">
+        <div class="col-xs-12 col-md-10 col-lg-10 center-col">
+          <hr />
+          <h3>Journal Articles</h3>
+
+          <div class="pub-entry" style="margin-left: 1rem;">
+            <p class="pub-title">A Cluster-Guided Screening Framework for Prioritizing Natural Product Candidates Against HIV-1 from the KNApSAcK Database</p>
+            <p class="pub-authors">Muhammad Alqaaf, Md Abdullah Al Mamun, Ahmad Kamal Nasution, <b>A S M Nazrul Islam</b>, Retno Supriyanti, Naoaki Ono, Shigehiko Kanaya, Md. Altaf-Ul-Amin</p>
+            <p class="pub-venue"><i>Pharmaceuticals</i> (MDPI), 2026, 19(10), 1534. Special Issue: Application of Computer Simulation in Drug Design.</p>
+          </div>
+
+          <h3>Conference Papers</h3>
+
+          <div class="pub-entry" style="margin-left: 1rem;">
+            <p class="pub-title">AMP: An Interactive Platform for Multi-Descriptor Ensemble Classification and Explainable Mechanism-of-Action Attribution of Antibacterial Compounds</p>
+            <p class="pub-authors">Ahmad Kamal Nasution, <b>A S M Nazrul Islam</b>, Fillipus Aditya Nugroho, Naoaki Ono, Shigehiko Kanaya, Md. Altaf-Ul-Amin</p>
+            <p class="pub-venue">2027 2nd International Conference on Advances in Artificial Intelligence and Machine Learning (AAIML 2027), Tokyo, Japan.</p>
+          </div>
+
+          <div class="pub-entry" style="margin-left: 1rem;">
+            <p class="pub-title">A Three-Stage Hierarchical Pipeline for Mechanism of Action Annotation of Antibiotic Compounds</p>
+            <p class="pub-authors"><b>A S M Nazrul Islam</b>, Muhammad Imran Khan, Ahmad Kamal Nasution, Naoaki Ono, Shigehiko Kanaya, Md. Altaf-Ul-Amin</p>
+            <p class="pub-venue">2026 IEEE International Conference on Future Machine Learning and Data Science (FMLDS 2026), Kobe, Japan.</p>
+            <p class="pub-summary">Assigns MOA to 2,281 unannotated antibiotic compounds from AntibioticDB by combining six external databases,
+              SMARTS-based structural inference and two KNN similarity stages, reaching 99.1% coverage across 19 MOA classes,
+              checked through four independent validation layers.</p>
+          </div>
+
+          <div class="pub-entry" style="margin-left: 1rem;">
+            <p class="pub-title">A Multi-Label Benchmark for Retinal Disease Classification on BRSET: Strong Baselines and the Limits of Label-Correlation Graphs</p>
+            <p class="pub-authors">Muhammad Imran Khan, <b>A S M Nazrul Islam</b>, Shigehiko Kanaya, Md. Altaf-Ul-Amin</p>
+            <p class="pub-venue">2026 IEEE International Conference on Future Machine Learning and Data Science (FMLDS 2026), Kobe, Japan.</p>
+            <p class="pub-summary">First multi-label benchmark on the Brazilian BRSET fundus dataset across eleven classes, with patient-level splits;
+              a class-weighted baseline (macro-AUC 0.913) outperforms the ML-GCN label-correlation graph at every edge threshold tested.</p>
+          </div>
+
+          <div class="pub-entry" style="margin-left: 1rem;">
+            <p class="pub-title">An EGFR-Pathway-Aware Multi-Omics Ensemble for Afatinib Drug Response Prediction in Cancer Cell Lines</p>
+            <p class="pub-authors">Muhammad Imran Khan, Taran Khan, <b>A S M Nazrul Islam</b>, Md. Altaf-Ul-Amin</p>
+            <p class="pub-venue">2026 IEEE International Conference on Future Machine Learning and Data Science (FMLDS 2026), Kobe, Japan.</p>
+            <p class="pub-summary">Leakage-controlled, pathway-informed ensemble of XGBoost and graph neural networks (GCN, GAT, GraphSAGE)
+              on 510 CCLE/GDSC cell lines, reaching the best Spearman correlation (0.496) and R&sup2; (0.330) among the models compared.</p>
+          </div>
+
+          <div class="pub-entry" style="margin-left: 1rem;">
+            <p class="pub-title">LLM-Assisted Knowledge Graph Enrichment from GitHub Repositories: A Preliminary Empirical Study with Cross-Vendor LLM Comparison</p>
+            <p class="pub-authors">Muhammad Imran Khan, <b>A S M Nazrul Islam</b>, Adnan Imranul Islam, Rafia Sultana, Md. Rajibul Alam</p>
+            <p class="pub-venue">4th International Conference on Computing Advancements (ICCA 2026), ACM, Dhaka, Bangladesh.</p>
+            <p class="pub-summary">Constrained-schema extraction of eight relation types from 30 ML repositories, evaluated against a 922-triple
+              hand-annotated gold standard; two LLMs from different vendors both far outperform a regex baseline and show complementary strengths.</p>
+          </div>
+
+          <div class="pub-entry" style="margin-left: 1rem;">
+            <p class="pub-title">Beyond Headline Accuracy: A Leakage-Aware Re-Evaluation of Deep Learning for Glaucoma Detection Across Datasets</p>
+            <p class="pub-authors">Muhammad Imran Khan, <b>A S M Nazrul Islam</b>, Mohiuddin Saifullah</p>
+            <p class="pub-venue">IEEE 3rd International Conference on Computing, Applications and Systems (COMPAS 2026), University of Dhaka, Bangladesh.</p>
+            <p class="pub-summary">Shows that a high-scoring glaucoma classifier is inflated by dataset-source confounding (pooled AUROC 0.979 vs.
+              within-source 0.886) and degrades sharply on three external datasets, and recommends reporting within-source, cross-dataset,
+              calibration and subgroup metrics.</p>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="project" class="ga-label section-odd" style="padding-top: 2rem;">
+    <div class="header">
+      <h1>Selected Industry Projects</h1>
     </div>
     <div class="container">
       <div class="row" style="justify-content: center;">
         <div class="col-xs-12 col-md-10 col-lg-10 center-col">
           <hr>
-          <div id="pub-vrlfd" class="row pub ga-label" style="padding-bottom: 1.5rem;">
+          <div id="proj-fbsd" class="row pub ga-label" style="padding-bottom: 1.5rem;">
             <div class="header col-12">
               <div class="row">
                 <h4 class="pub-title col-12">
@@ -165,12 +250,12 @@
               </div>
             </div>
             <div class="col-sm-12 col-md-4">
-              <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+              <div id="carousel-fbsd" class="carousel slide" data-ride="carousel">
                 <ol class="carousel-indicators">
-                  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                  <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                  <li data-target="#carousel-fbsd" data-slide-to="0" class="active"></li>
+                  <li data-target="#carousel-fbsd" data-slide-to="1"></li>
+                  <li data-target="#carousel-fbsd" data-slide-to="2"></li>
+                  <li data-target="#carousel-fbsd" data-slide-to="3"></li>
                 </ol>
                 <div class="carousel-inner">
                   <div class="carousel-item active">
@@ -198,11 +283,11 @@
                     </div>
                   </div>
                 </div>
-                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <a class="carousel-control-prev" href="#carousel-fbsd" role="button" data-slide="prev">
                   <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                   <span class="sr-only">Previous</span>
                 </a>
-                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <a class="carousel-control-next" href="#carousel-fbsd" role="button" data-slide="next">
                   <span class="carousel-control-next-icon" aria-hidden="true"></span>
                   <span class="sr-only">Next</span>
                 </a>
@@ -225,7 +310,7 @@
             </div>
           </div>
           
-          <div id="pub-vrlfd" class="row pub ga-label" style="padding-bottom: 1.5rem;">
+          <div id="proj-ospd" class="row pub ga-label" style="padding-bottom: 1.5rem;">
             <div class="header col-12">
               <div class="row">
                 <h4 class="pub-title col-12">
@@ -237,10 +322,10 @@
               </div>
             </div>
             <div class="col-sm-12 col-md-4">
-              <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+              <div id="carousel-ospd" class="carousel slide" data-ride="carousel">
                 <ol class="carousel-indicators">
-                  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                  <li data-target="#carousel-ospd" data-slide-to="0" class="active"></li>
+                  <li data-target="#carousel-ospd" data-slide-to="1"></li>
                 </ol>
                 <div class="carousel-inner">
                   <div class="carousel-item active">
@@ -256,11 +341,11 @@
                     </div>
                   </div>
                 </div>
-                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <a class="carousel-control-prev" href="#carousel-ospd" role="button" data-slide="prev">
                   <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                   <span class="sr-only">Previous</span>
                 </a>
-                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <a class="carousel-control-next" href="#carousel-ospd" role="button" data-slide="next">
                   <span class="carousel-control-next-icon" aria-hidden="true"></span>
                   <span class="sr-only">Next</span>
                 </a>
@@ -284,7 +369,7 @@
             </div>
           </div>
           
-          <div id="pub-vrlfd" class="row pub ga-label" style="padding-bottom: 1.5rem;">
+          <div id="proj-attn" class="row pub ga-label" style="padding-bottom: 1.5rem;">
             <div class="header col-12">
               <div class="row">
                 <h4 class="pub-title col-12">
@@ -296,11 +381,11 @@
               </div>
             </div>
             <div class="col-sm-12 col-md-4">
-              <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+              <div id="carousel-attn" class="carousel slide" data-ride="carousel">
                 <ol class="carousel-indicators">
-                  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                  <li data-target="#carousel-attn" data-slide-to="0" class="active"></li>
+                  <li data-target="#carousel-attn" data-slide-to="1"></li>
+                  <li data-target="#carousel-attn" data-slide-to="2"></li>
                 </ol>
                 <div class="carousel-inner">
                   <div class="carousel-item active">
@@ -322,11 +407,11 @@
                     </div>
                   </div>
                 </div>
-                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <a class="carousel-control-prev" href="#carousel-attn" role="button" data-slide="prev">
                   <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                   <span class="sr-only">Previous</span>
                 </a>
-                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <a class="carousel-control-next" href="#carousel-attn" role="button" data-slide="next">
                   <span class="carousel-control-next-icon" aria-hidden="true"></span>
                   <span class="sr-only">Next</span>
                 </a>
@@ -353,7 +438,7 @@
             </div>
           </div>
           
-          <div id="pub-vrlfd" class="row pub ga-label" style="padding-bottom: 1.5rem;">
+          <div id="proj-fpd" class="row pub ga-label" style="padding-bottom: 1.5rem;">
             <div class="header col-12">
               <div class="row">
                 <h4 class="pub-title col-12">
@@ -365,9 +450,9 @@
               </div>
             </div>
             <div class="col-sm-12 col-md-4">
-              <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+              <div id="carousel-fpd" class="carousel slide" data-ride="carousel">
                 <ol class="carousel-indicators">
-                  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                  <li data-target="#carousel-fpd" data-slide-to="0" class="active"></li>
                 </ol>
                 <div class="carousel-inner">
                   <div class="carousel-item active">
@@ -377,11 +462,11 @@
                     </div>
                   </div>
                 </div>
-                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <a class="carousel-control-prev" href="#carousel-fpd" role="button" data-slide="prev">
                   <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                   <span class="sr-only">Previous</span>
                 </a>
-                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <a class="carousel-control-next" href="#carousel-fpd" role="button" data-slide="next">
                   <span class="carousel-control-next-icon" aria-hidden="true"></span>
                   <span class="sr-only">Next</span>
                 </a>
@@ -400,7 +485,7 @@
             </div>
           </div>
 
-          <div id="pub-vrlfd" class="row pub ga-label" style="padding-bottom: 1.5rem;">
+          <div id="proj-gse" class="row pub ga-label" style="padding-bottom: 1.5rem;">
             <div class="header col-12">
               <div class="row">
                 <h4 class="pub-title col-12">
@@ -412,12 +497,12 @@
               </div>
             </div>
             <div class="col-sm-12 col-md-4">
-              <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+              <div id="carousel-gse" class="carousel slide" data-ride="carousel">
                 <ol class="carousel-indicators">
-                  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                  <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                  <li data-target="#carousel-gse" data-slide-to="0" class="active"></li>
+                  <li data-target="#carousel-gse" data-slide-to="1"></li>
+                  <li data-target="#carousel-gse" data-slide-to="2"></li>
+                  <li data-target="#carousel-gse" data-slide-to="3"></li>
                 </ol>
                 <div class="carousel-inner">
                   <div class="carousel-item active">
@@ -445,11 +530,11 @@
                     </div>
                   </div>
                 </div>
-                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <a class="carousel-control-prev" href="#carousel-gse" role="button" data-slide="prev">
                   <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                   <span class="sr-only">Previous</span>
                 </a>
-                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <a class="carousel-control-next" href="#carousel-gse" role="button" data-slide="next">
                   <span class="carousel-control-next-icon" aria-hidden="true"></span>
                   <span class="sr-only">Next</span>
                 </a>
@@ -474,7 +559,7 @@
           </div>
 
           
-          <div id="pub-vrlfd" class="row pub ga-label" style="padding-bottom: 1.5rem;">
+          <div id="proj-workforce" class="row pub ga-label" style="padding-bottom: 1.5rem;">
             <div class="header col-12">
               <div class="row">
                 <h4 class="pub-title col-12">
@@ -486,9 +571,9 @@
               </div>
             </div>
             <div class="col-sm-12 col-md-4">
-              <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+              <div id="carousel-workforce" class="carousel slide" data-ride="carousel">
                 <ol class="carousel-indicators">
-                  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                  <li data-target="#carousel-workforce" data-slide-to="0" class="active"></li>
                 </ol>
                 <div class="carousel-inner">
                   <div class="carousel-item active">
@@ -498,11 +583,11 @@
                     </div>
                   </div>
                 </div>
-                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <a class="carousel-control-prev" href="#carousel-workforce" role="button" data-slide="prev">
                   <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                   <span class="sr-only">Previous</span>
                 </a>
-                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <a class="carousel-control-next" href="#carousel-workforce" role="button" data-slide="next">
                   <span class="carousel-control-next-icon" aria-hidden="true"></span>
                   <span class="sr-only">Next</span>
                 </a>
@@ -518,7 +603,7 @@
             </div>
           </div>
 
-          <div id="pub-vrlfd" class="row pub ga-label" style="padding-bottom: 1.5rem;">
+          <div id="proj-pns" class="row pub ga-label" style="padding-bottom: 1.5rem;">
             <div class="header col-12">
               <div class="row">
                 <h4 class="pub-title col-12">
@@ -530,9 +615,9 @@
               </div>
             </div>
             <div class="col-sm-12 col-md-4">
-              <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+              <div id="carousel-pns" class="carousel slide" data-ride="carousel">
                 <ol class="carousel-indicators">
-                  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                  <li data-target="#carousel-pns" data-slide-to="0" class="active"></li>
                 </ol>
                 <div class="carousel-inner">
                   <div class="carousel-item active">
@@ -542,11 +627,11 @@
                     </div>
                   </div>
                 </div>
-                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <a class="carousel-control-prev" href="#carousel-pns" role="button" data-slide="prev">
                   <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                   <span class="sr-only">Previous</span>
                 </a>
-                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <a class="carousel-control-next" href="#carousel-pns" role="button" data-slide="next">
                   <span class="carousel-control-next-icon" aria-hidden="true"></span>
                   <span class="sr-only">Next</span>
                 </a>
@@ -565,7 +650,7 @@
           </div>
 
 
-          <div id="pub-vrlfd" class="row pub ga-label" style="padding-bottom: 1.5rem;">
+          <div id="proj-website" class="row pub ga-label" style="padding-bottom: 1.5rem;">
             <div class="header col-12">
               <div class="row">
                 <h4 class="pub-title col-12">
@@ -577,10 +662,10 @@
               </div>
             </div>
             <div class="col-sm-12 col-md-4">
-              <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+              <div id="carousel-website" class="carousel slide" data-ride="carousel">
                 <ol class="carousel-indicators">
-                  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                  <li data-target="#carousel-website" data-slide-to="0" class="active"></li>
+                  <li data-target="#carousel-website" data-slide-to="1"></li>
                 </ol>
                 <div class="carousel-inner">
                   <div class="carousel-item active">
@@ -596,11 +681,11 @@
                     </div>
                   </div>
                 </div>
-                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <a class="carousel-control-prev" href="#carousel-website" role="button" data-slide="prev">
                   <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                   <span class="sr-only">Previous</span>
                 </a>
-                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <a class="carousel-control-next" href="#carousel-website" role="button" data-slide="next">
                   <span class="carousel-control-next-icon" aria-hidden="true"></span>
                   <span class="sr-only">Next</span>
                 </a>
@@ -628,7 +713,7 @@
     </div>
   </section>
 
-  <section id="education"  class="ga-label section-odd" style="min-height: 130%; padding-top: 2rem">
+  <section id="education" class="ga-label section-even" style="min-height: 130%; padding-top: 2rem; background-color: #eeeeee;">
     <div class="header">
       <h1>Education</h1>
     </div>
@@ -641,12 +726,17 @@
           <!-- PhD. -->
           <div class="row" style="margin-left: 1rem;">
             <div class="col-sm-12 col-md-8" style="font-weight: bold; font-size: medium">Nara Institute of Science and Technology (NAIST)</div>
-            <div class="col-sm-12 col-md-4 subInfo">2025 - Present</div>
+            <div class="col-sm-12 col-md-4 subInfo">Oct 2025 - Present</div>
           </div>
 
-          <div class="row" style="margin-left: 1rem; padding-bottom: 1rem;">
+          <div class="row" style="margin-left: 1rem;">
             <div class="col-sm-8 col-md-8">Doctor of Philosophy in Information Science</div>
-            <div class="col-sm-4 col-md-4 subInfo"> </div>
+            <div class="col-sm-4 col-md-4 subInfo">Nara, Japan</div>
+          </div>
+          <div class="row" style="margin-left: 1rem; padding-bottom: 1rem;">
+            <div class="col-sm-12 col-md-12" style="font-size: small">
+              Computational Systems Biology Laboratory | JST GRANITE Program Scholar
+            </div>
           </div>
           
           <!-- M.Sc. -->
@@ -700,7 +790,7 @@
                 <li>Discrete Mathematics (3.5/4.0)</li>
                 <li>Numerical Analysis (3.75/4.0)</li>
                 <li>Vector, Matrix & Fourier Analysis (3.0/4.0)</li>
-                <li>Applie Statistics & Queuing Theory (3.75/4.0)</li>
+                <li>Applied Statistics & Queuing Theory (3.75/4.0)</li>
                 <li>Complex Variable & Laplace Transformation (3.5/4.0)</li>
               </ul>
             </div>
@@ -734,10 +824,11 @@
 
           <div class="row" style="margin-left: 50px">
             <ul class="list-unstyled">
-              <li>Data Science</li>
-              <li>Machine Learning</li>
-              <li>Airline/Aviation Domain</li>
-              <li>Health/Bio-informatics Domain</li>
+              <li>Machine Learning for Drug Discovery and Cheminformatics</li>
+              <li>Antibiotic Mechanism of Action Prediction</li>
+              <li>Medical Image Analysis</li>
+              <li>Reliable ML Evaluation (data leakage, dataset shift, generalization)</li>
+              <li>Data Science in the Airline/Aviation Domain</li>
             </ul>
           </div>
         </div>
@@ -746,7 +837,7 @@
     <!-- End of Research Interests -->
   </section>
 
-  <section id="experience" class="ga-label section-even" style="min-height: 130%; padding-top: 2rem; background-color: #eeeeee;">
+  <section id="experience" class="ga-label section-odd" style="min-height: 130%; padding-top: 2rem;">
     <div class="header">
       <h1>Experiences</h1>
     </div>
@@ -759,7 +850,7 @@
           <!-- Biman Bangladesh Airlines Ltd. -->
           <div class="row" style="margin-left: 1rem;">
             <div class="col-sm-12 col-md-8" style="font-weight: bold; font-size: medium">Biman Bangladesh Airlines Ltd.</div>
-            <div class="col-sm-12 col-md-4 subInfo">Jan 2021 – Present</div>
+            <div class="col-sm-12 col-md-4 subInfo">Jan 2021 – Sep 2025</div>
           </div>
 
           <div class="row" style="margin-left: 1rem; padding-bottom: 1rem;">
@@ -769,14 +860,14 @@
           <div class="row" style=" padding-bottom: 1rem;margin-left: .5rem;">
             <div class="col-sm-12 col-md-12">
               <ul>
-                <li>Lead a team of 5 DBA and Programmers, achieved 20% boost in productivity through strategic task delegation.</li>
+                <li>Led a team of 5 DBAs and programmers, achieving a 20% boost in productivity through strategic task delegation.</li>
                 <li>Applied machine learning to analyze large airline datasets, addressing challenges like flight delays, demand
                   prediction and resource under-utilization.</li>
                 <li>Conducted Exploratory Data Analysis (EDA) on heterogeneous sourced data to derive actionable insights like
                   out-station performance, reservation status, PNR to VCR conversion from travel data batch (TDB).</li>
                 <li>Optimized complex database queries for reporting and analysis, reducing query retrieval time by 30%.</li>
-                <li>Reduced 60%manual work of departments by introducing digitization /digitalization/digital transformation.</li>
-                <li>Prepared the policy to tackle the challenges of 4th industrial revolution along with a five years work-plan.</li>
+                <li>Reduced 60% of manual work of departments by introducing digitization /digitalization/digital transformation.</li>
+                <li>Prepared the policy to tackle the challenges of the 4th industrial revolution along with a five-year work plan.</li>
               </ul>
             </div>
           </div>
@@ -826,6 +917,23 @@
       <div class="row" style="justify-content: center;">
         <div class="col-xs-12 col-md-10 col-lg-10 center-col">
           <h3 style="text-shadow: 1px 1px gray;">Research Experiences</h3>
+
+          <!-- Ph.D. -->
+          <div class="row" style="margin-left: 1rem;">
+            <div class="col-sm-12 col-md-12" style="font-weight: bold; font-size: medium">Machine Learning for Mechanism of Action Prediction of Antibiotic Compounds</div>
+          </div>
+
+          <div class="row" style="margin-left: 1rem; padding-bottom: 1rem;">
+            <div class="col-sm-12 col-md-12">Ph.D. Research | Computational Systems Biology Laboratory, NAIST | Oct 2025 – Present</div>
+            <div class="col-sm-12 col-md-12">
+              <ul>
+                <li>Built a three-stage hierarchical pipeline that annotates MOA for 2,281 previously unannotated compounds in AntibioticDB,
+                  combining six external databases, SMARTS-based structural inference and KNN similarity (99.1% coverage, 19 MOA classes).</li>
+                <li>Validated assignments through pharmacological rules, external database agreement, structure-based holdout and PubMed literature review.</li>
+                <li>Developing graph-based models on SMILES molecular representations to predict MOA for new compounds.</li>
+              </ul>
+            </div>
+          </div>
 
           <!-- M.Sc. -->
           <div class="row" style="margin-left: 1rem;">
@@ -948,6 +1056,9 @@
               <li class="list-inline-item">
                 <i class="devicon-scikitlearn-plain"></i>
               </li>
+              <li class="list-inline-item">
+                <i class="devicon-tensorflow-original"></i>
+              </li>
             </ul>
           </div>
           <div class="row"  style="margin-left: 20px; display: table;">
@@ -1010,7 +1121,7 @@
     <br />
   </section>
 
-  <section id="service" class="ga-label section-odd" style="min-height: 130%; padding-top: 2rem;">
+  <section id="service" class="ga-label section-even" style="min-height: 130%; padding-top: 2rem; background-color: #eeeeee;">
     <div class="header">
       <h1>Services</h1>
     </div>
@@ -1024,7 +1135,7 @@
           <!-- Innovation Officer -->
           <div class="row" style="margin-left: 1rem;padding-bottom: 1rem;">
             <div class="col-sm-12 col-md-8" style="font-weight: bold; font-size: medium">Innovation Officer | Biman Bangladesh Airlines Ltd.</div>
-            <div class="col-sm-12 col-md-4 subInfo">2022 - Present</div>
+            <div class="col-sm-12 col-md-4 subInfo">2022 - 2025</div>
             <div class="col-sm-12 col-md-12" style="text-align: justify;">
               coordinating with the Bangladesh aviation ministry’s innovation team and managing innovation activities in the organization.
             </div>
@@ -1101,6 +1212,19 @@
 
           <!-- Teaching Exp. -->
           <div class="row" style="margin-left: 1rem;">
+            <div class="col-sm-12 col-md-8" style="font-weight: bold; font-size: medium">Teaching Assistant, Data Mining | NAIST</div>
+            <div class="col-sm-12 col-md-4 subInfo">Nara, Japan</div>
+          </div>
+
+          <div class="row" style="margin-left: 1rem; padding-bottom: .5rem;">
+            <div class="col-sm-12 col-md-12">
+              <ul style="text-align: justify;">
+                <li>Present R tutorials to graduate students and support them with course exercises.</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="row" style="margin-left: 1rem;">
             <div class="col-sm-12 col-md-12" style="font-weight: bold; font-size: medium">Programming Tutor</div>
           </div>
 
@@ -1152,7 +1276,8 @@
           <div class="row" style="margin-left: 1rem; padding-bottom: 1rem;">
             <div class="col-sm-12 col-md-12">
               <ul style="padding-left: 1rem;text-align: justify;">
-                <li>NAIST Granite Scholar (2025). </li>
+                <li>Merit-based registration award, IEEE FMLDS 2026, Kobe (2026).</li>
+                <li>JST GRANITE Program Scholarship, NAIST (2025 – 2028).</li>
                 <li>Officially recognized and appreciated by MD & CEO of Biman Bangladesh Airlines for contribution 
                   in implementing Smart Flight Planning Solution, Lido Flight 4D by Lufthansa (2023). </li>
                 <li>CUET Merit Scholarship in all semesters for satisfactory result from 2013-2017.</li>
@@ -1170,7 +1295,7 @@
         <div class="col-sm-12 col-md-2"></div>
         <div class="col-sm-12 col-md-8">
           <span>
-            <i class="fa fa-envelope"></i> asmnazrul1363 at gmail dot com
+            <i class="fa fa-envelope"></i> asmnazrul1363 at gmail dot com &nbsp;|&nbsp; a.s_m_nazrul_islam.aw1 at naist dot ac dot jp
           </span>
         </div>
         <div class="col-sm-12 col-md-2">
